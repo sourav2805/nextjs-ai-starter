@@ -13,6 +13,8 @@
     "@ai-sdk/openai": "^0.0.36",
     "ai": "^3.2.20",
     "next": "14.2.5",
+    "ollama": "^0.5.2",
+    "ollama-ai-provider": "^0.10.0",
     "react": "^18",
     "react-dom": "^18"
   },

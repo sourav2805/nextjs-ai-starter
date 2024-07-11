@@ -18,6 +18,9 @@ export default function Home() {
             <Link href="/gemini" className="text-lg text-blue-500 hover:text-blue-700 transition duration-300 border border-blue-500 hover:bg-blue-500 px-4 py-2 rounded-lg shadow-sm">
                 Gemini Integration
               </Link>
+              <Link href="/ollama" className="text-lg text-blue-500 hover:text-blue-700 transition duration-300 border border-blue-500 hover:bg-blue-500 px-4 py-2 rounded-lg shadow-sm">
+                Ollama Integration
+              </Link>
           </nav>
         </div>
       </main>

@@ -9,6 +9,7 @@ export default function Chat() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
       <div className="w-full max-w-md bg-white rounded-lg shadow-md p-4">
+      <h1 className="text-4xl font-bold text-gray-800 mb-4">OpenAI Chat</h1>
         <ul className="space-y-4 mb-4">
           {messages.map((m, index) => (
             <li key={index} className={`p-2 rounded ${m.role === 'user' ? 'bg-blue-100 text-blue-800' : 'bg-gray-100 text-gray-800'}`}>
